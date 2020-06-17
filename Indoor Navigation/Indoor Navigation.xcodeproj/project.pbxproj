@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004C6C58249A43CB007F557F /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C6C57249A43CB007F557F /* Plane.swift */; };
+		004C6C5A249A5746007F557F /* CylinderLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C6C59249A5746007F557F /* CylinderLine.swift */; };
 		34384E1C2440E44C00279DBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34384E1B2440E44C00279DBE /* AppDelegate.swift */; };
 		34384E1E2440E44C00279DBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34384E1D2440E44C00279DBE /* SceneDelegate.swift */; };
 		34384E202440E44C00279DBE /* CheckPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34384E1F2440E44C00279DBE /* CheckPointViewController.swift */; };
@@ -15,9 +17,21 @@
 		34384E302440E49600279DBE /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34384E2F2440E49600279DBE /* RootViewController.swift */; };
 		34384E382440E5E900279DBE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34384E372440E5E900279DBE /* MapViewController.swift */; };
 		34384E3B2440E63C00279DBE /* CompassHeading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34384E3A2440E63C00279DBE /* CompassHeading.swift */; };
+		3462D83224969F05001F3C7D /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462D83124969F05001F3C7D /* LocationsViewController.swift */; };
+		3462D83C2496A12A001F3C7D /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462D83A2496A12A001F3C7D /* LocationCell.swift */; };
+		3462D83D2496A12A001F3C7D /* LocationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3462D83B2496A12A001F3C7D /* LocationCell.xib */; };
+		3462D83F2496A15C001F3C7D /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462D83E2496A15C001F3C7D /* Location.swift */; };
+		3462D8422496A841001F3C7D /* UIView+setupShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462D8412496A841001F3C7D /* UIView+setupShadow.swift */; };
+		3462D8492496A85D001F3C7D /* UIView+shadowRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462D8432496A85C001F3C7D /* UIView+shadowRadius.swift */; };
+		3462D84A2496A85D001F3C7D /* UIView+shadowOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462D8442496A85C001F3C7D /* UIView+shadowOffset.swift */; };
+		3462D84C2496A85D001F3C7D /* UIView+cornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462D8462496A85C001F3C7D /* UIView+cornerRadius.swift */; };
+		3462D84D2496A85D001F3C7D /* UIView+shadowColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462D8472496A85C001F3C7D /* UIView+shadowColor.swift */; };
+		3462D84E2496A85D001F3C7D /* UIView+shadowOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462D8482496A85C001F3C7D /* UIView+shadowOpacity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		004C6C57249A43CB007F557F /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		004C6C59249A5746007F557F /* CylinderLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CylinderLine.swift; sourceTree = "<group>"; };
 		34384E182440E44C00279DBE /* Indoor Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indoor Navigation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34384E1B2440E44C00279DBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34384E1D2440E44C00279DBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +42,16 @@
 		34384E2F2440E49600279DBE /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		34384E372440E5E900279DBE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		34384E3A2440E63C00279DBE /* CompassHeading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassHeading.swift; sourceTree = "<group>"; };
+		3462D83124969F05001F3C7D /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		3462D83A2496A12A001F3C7D /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		3462D83B2496A12A001F3C7D /* LocationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationCell.xib; sourceTree = "<group>"; };
+		3462D83E2496A15C001F3C7D /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		3462D8412496A841001F3C7D /* UIView+setupShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+setupShadow.swift"; sourceTree = "<group>"; };
+		3462D8432496A85C001F3C7D /* UIView+shadowRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+shadowRadius.swift"; sourceTree = "<group>"; };
+		3462D8442496A85C001F3C7D /* UIView+shadowOffset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+shadowOffset.swift"; sourceTree = "<group>"; };
+		3462D8462496A85C001F3C7D /* UIView+cornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+cornerRadius.swift"; sourceTree = "<group>"; };
+		3462D8472496A85C001F3C7D /* UIView+shadowColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+shadowColor.swift"; sourceTree = "<group>"; };
+		3462D8482496A85C001F3C7D /* UIView+shadowOpacity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+shadowOpacity.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +84,8 @@
 		34384E1A2440E44C00279DBE /* Indoor Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				34384E342440E53A00279DBE /* RootViewController */,
+				34384E2F2440E49600279DBE /* RootViewController.swift */,
+				3462D8402496A82B001F3C7D /* Extensions */,
 				34384E322440E4FE00279DBE /* Interface */,
 				34384E392440E63100279DBE /* Model */,
 				34384E312440E4D500279DBE /* Supporting Files */,
@@ -83,6 +108,7 @@
 		34384E322440E4FE00279DBE /* Interface */ = {
 			isa = PBXGroup;
 			children = (
+				3462D8332496A026001F3C7D /* Views */,
 				34384E332440E50500279DBE /* Controllers */,
 			);
 			path = Interface;
@@ -91,42 +117,44 @@
 		34384E332440E50500279DBE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				34384E362440E5DC00279DBE /* MapViewController */,
-				34384E352440E5D600279DBE /* CheckPointViewController */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		34384E342440E53A00279DBE /* RootViewController */ = {
-			isa = PBXGroup;
-			children = (
-				34384E2F2440E49600279DBE /* RootViewController.swift */,
-			);
-			path = RootViewController;
-			sourceTree = "<group>";
-		};
-		34384E352440E5D600279DBE /* CheckPointViewController */ = {
-			isa = PBXGroup;
-			children = (
+				3462D83124969F05001F3C7D /* LocationsViewController.swift */,
 				34384E1F2440E44C00279DBE /* CheckPointViewController.swift */,
-			);
-			path = CheckPointViewController;
-			sourceTree = "<group>";
-		};
-		34384E362440E5DC00279DBE /* MapViewController */ = {
-			isa = PBXGroup;
-			children = (
 				34384E372440E5E900279DBE /* MapViewController.swift */,
 			);
-			path = MapViewController;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		34384E392440E63100279DBE /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				34384E3A2440E63C00279DBE /* CompassHeading.swift */,
+				004C6C59249A5746007F557F /* CylinderLine.swift */,
+				3462D83E2496A15C001F3C7D /* Location.swift */,
+				004C6C57249A43CB007F557F /* Plane.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		3462D8332496A026001F3C7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3462D83A2496A12A001F3C7D /* LocationCell.swift */,
+				3462D83B2496A12A001F3C7D /* LocationCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3462D8402496A82B001F3C7D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3462D8462496A85C001F3C7D /* UIView+cornerRadius.swift */,
+				3462D8432496A85C001F3C7D /* UIView+shadowRadius.swift */,
+				3462D8482496A85C001F3C7D /* UIView+shadowOpacity.swift */,
+				3462D8442496A85C001F3C7D /* UIView+shadowOffset.swift */,
+				3462D8472496A85C001F3C7D /* UIView+shadowColor.swift */,
+				3462D8412496A841001F3C7D /* UIView+setupShadow.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3462D83D2496A12A001F3C7D /* LocationCell.xib in Resources */,
 				34384E282440E44F00279DBE /* LaunchScreen.storyboard in Resources */,
 				34384E252440E44F00279DBE /* Assets.xcassets in Resources */,
 			);
@@ -199,11 +228,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3462D83224969F05001F3C7D /* LocationsViewController.swift in Sources */,
+				3462D84A2496A85D001F3C7D /* UIView+shadowOffset.swift in Sources */,
 				34384E202440E44C00279DBE /* CheckPointViewController.swift in Sources */,
+				3462D84C2496A85D001F3C7D /* UIView+cornerRadius.swift in Sources */,
 				34384E302440E49600279DBE /* RootViewController.swift in Sources */,
 				34384E1C2440E44C00279DBE /* AppDelegate.swift in Sources */,
+				004C6C58249A43CB007F557F /* Plane.swift in Sources */,
+				3462D8492496A85D001F3C7D /* UIView+shadowRadius.swift in Sources */,
+				3462D83F2496A15C001F3C7D /* Location.swift in Sources */,
+				3462D84E2496A85D001F3C7D /* UIView+shadowOpacity.swift in Sources */,
 				34384E3B2440E63C00279DBE /* CompassHeading.swift in Sources */,
 				34384E382440E5E900279DBE /* MapViewController.swift in Sources */,
+				3462D83C2496A12A001F3C7D /* LocationCell.swift in Sources */,
+				004C6C5A249A5746007F557F /* CylinderLine.swift in Sources */,
+				3462D8422496A841001F3C7D /* UIView+setupShadow.swift in Sources */,
+				3462D84D2496A85D001F3C7D /* UIView+shadowColor.swift in Sources */,
 				34384E1E2440E44C00279DBE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,14 +381,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9ZB2A7WP7E;
+				DEVELOPMENT_TEAM = 7539NYVM98;
 				INFOPLIST_FILE = "Indoor Navigation/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.MS.Indoor-Navigation";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asdasS.Indoor-Navigation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -360,14 +400,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9ZB2A7WP7E;
+				DEVELOPMENT_TEAM = 7539NYVM98;
 				INFOPLIST_FILE = "Indoor Navigation/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.MS.Indoor-Navigation";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asdasS.Indoor-Navigation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
